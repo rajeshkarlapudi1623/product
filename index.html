@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>E-Commerence</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="nav">
+        <i class="fa-solid fa-bars"></i>
+        <img src="./images/logo.svg" alt="Logo"/>
+        <h4>Collections</h4>
+        <h4>Men</h4>
+        <h4>Women</h4>
+        <h4>About</h4>
+        <h4>Contact</h4>
+      </div>
+      <div class="cart-open">
+        <img src="./images/icon-cart.svg" alt="Cart" id="cart"/>
+        <span class="cart-count"></span>
+        <div class="cart-details">
+          <h4>Cart</h4>
+          <h6>Your cart is empty</h6>
+        </div>
+      </div>
+      <img src="./images/image-avatar.png" alt="Profile" id="profile"/>
+    </div>
+    <div class="mainbody">
+      <div class="left">
+        <div class="images">
+          <button><img src="./images/icon-previous.svg" alt=""></button>
+          <img src="./images/image-product-1.jpg" alt="one" id="mainimage" class="response"/>
+          <img src="./images/image-product-2.jpg" alt="" id="second" class="response">
+          <img src="./images/image-product-3.jpg" alt="" id="third" class="response">
+          <img src="./images/image-product-4.jpg" alt="" id="fourth" class="response">
+          <button><img src="./images/icon-next.svg" alt=""></button>
+        </div>
+        <div class="bottom">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="two" id="refers" class="smallimage"/>
+          <img src="./images/image-product-2-thumbnail.jpg" alt="three" class="smallimage"/>
+          <img src="./images/image-product-3-thumbnail.jpg" alt="four" class="smallimage"/>
+          <img src="./images/image-product-4-thumbnail.jpg" alt="five" class="smallimage"/>
+        </div>
+      </div>
+      <div class="right">
+        <div class="description">
+          <h5>Sneaker Company</h5>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <h6>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.</h6>
+        </div>
+        <div class="price">
+          <h3>$125.00 <button>50%</button></h3>
+          <h6><s>$250.00</s></h6>
+        </div>
+        <div class="checkout">
+          <div class="quantity">
+              <button  id="minus"><img src="./images/icon-minus.svg" alt="minus"></button>
+              <span class="count">0</span>
+              <button id="plus"><img src="./images/icon-plus.svg" alt="plus"></button>
+          </div>
+          <div class="save">
+            <button>
+              <img src="./images/icon-cart.svg" alt="cart" width="15px"/>
+              <h4 class="inc-dec">Add to cart</h4>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+<!-- <span class="count">0</span>
+    <div class="btn-container">
+        <button class="dec">-</button>
+        <span id="quant">0</span>
+        <button class="inc">+</button>
+    </div>
+    <input type="button" value="ADD TO CART" id="add-to-cart"> -->
